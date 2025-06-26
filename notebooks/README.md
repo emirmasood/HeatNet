@@ -32,4 +32,4 @@ This folder contains all Jupyter/Colab notebooks to run each step of the project
   Runs the PnP algorithm together with the RANSAC method to robustly estimate the 6D pose of the object based on known 2D-3D correspondences.
 
 - **`end_to_end/ph5_01_end_to_end.ipynb`**  
-  Unifies all pipeline stages into a single cohesive workflow, and modules/ folder supplying all necessary scripts and utilities to execute the full system.
+  Unifies all pipeline stages into a single cohesive workflow, with the modules/ folder supplying all necessary scripts and utilities to execute the full system, and presents results obtained on the test dataset for all models.
