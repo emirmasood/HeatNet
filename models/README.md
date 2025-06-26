@@ -1,6 +1,6 @@
 # Models
 
-This folder contains all trained model checkpoints and it consists of the following subdirectories:
+This folder contains all trained model checkpoints.
 
 ## Folder structure
 
