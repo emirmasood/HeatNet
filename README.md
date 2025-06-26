@@ -1,6 +1,6 @@
 # 6D Pose Estimation via Keypoint Heatmap Regression with RGB-D Residual Neural Networks
 
-This repository provides the official implementation of our Machine Learning & Deep Learning project focused on 6D object pose estimation. The pipeline utilizes YOLOv10-medium for initial object detection, a ResNet18-based convolutional neural network for keypoint heatmap regression, and the Perspective-n-Point (PnP) algorithm with RANSAC for pose estimation. To enhance accuracy, we introduced depth information into our baseline RGB model through a cross-fusion strategy, combining RGB and depth modalities.
+This repository provides the official implementation of our Machine Learning & Deep Learning project focused on 6D object pose estimation.
 
 ---
 
