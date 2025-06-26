@@ -25,11 +25,11 @@ This folder contains all Jupyter/Colab notebooks to run each step of the project
 - **`ph3_04_baseline_model_definition.ipynb`**  
   Trains a convolutional neural network using a heatmap-based approach to accurately predict position of object keypoints from RGB images
 
-- **`ph3_05_pnp_add.ipynb`**  
-  Runs the PnP algorithm together with the RANSAC method to robustly estimate the 6D pose of the object based on known 2D-3D correspondences.
+- **`ph3_05_depth_extension_with_general_training_experiments.ipynb`**  
+  Extends our heatmap-based keypoint regression to leverage both RGB and depth inputs, and carries out general training experiments to compare different activation functions and learning-rate schedulers.
 
-- **`ph4_01_depth_extension_with_general_training_experiments.ipynb`**  
-  Extends our heatmap-based keypoint regression to leverage both RGB and depth inputs, carries out general training experiments to compare different activation functions and learning-rate schedulers.
+- **`ph4_01_pnp_add.ipynb`**  
+  Runs the PnP algorithm together with the RANSAC method to robustly estimate the 6D pose of the object based on known 2D-3D correspondences.
 
 - **`end_to_end/ph5_01_end_to_end.ipynb`**  
   Unifies all pipeline stages into a single cohesive workflow, and modules/ folder supplying all necessary scripts and utilities to execute the full system.
