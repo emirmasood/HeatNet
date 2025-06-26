@@ -8,16 +8,18 @@ This repository provides the official implementation of our Machine Learning & D
 
 ```
 .
-├── data/             # images, depth maps, labels, and keypoints
-├── docs/             # project report and related documents
-├── models/           # trained model checkpoints
-│   ├── resnet/       # ResNet-based models
-│   ├── yolov10m/     # YOLO model artifacts
-│   └── yolov10m.pt   # pretrained YOLO weights
-├── notebooks/        # Jupyter notebooks for pipeline phases
-│   └── end_to_end/   # complete pipeline notebook and modules
-├── requirements.txt  # Python dependencies
-└── README.md         # project overview
+├── data/                                                                        # images, depth maps, labels, and keypoints
+├── docs/                                                                        # project report and related documents
+│   ├── s337769_s337006_s344174_s342583_ALJOSEVIC_ALMASI_PAROVIC_SHAFIEI.pdf     # project report
+│   └── instructions.pdf                                                         # instructions of project structure and execution
+├── models/                                                                      # trained model checkpoints
+│   ├── resnet/                                                                  # ResNet-based models
+│   ├── yolov10m/                                                                # YOLO model artifacts
+│   └── yolov10m.pt                                                              # pretrained YOLO weights
+├── notebooks/                                                                   # Jupyter notebooks for pipeline phases
+│   └── end_to_end/                                                              # complete pipeline notebook and modules
+├── requirements.txt                                                             # Python dependencies
+└── README.md                                                                    # project overview
 ```
 
 ---
@@ -52,15 +54,6 @@ Place downloaded files into their respective folders as indicated in the folder 
 ```bash
 jupyter lab notebooks/end_to_end/ph5_01_end_to_end.ipynb
 ```
-
----
-
-## 📜 Documentation
-
-All relevant documentation, including the project report, is available in the `docs/` folder:
-
-* s337769_s337006_s344174_s342583 _ALJOSEVIC_ALMASI_ PAROVIC_SHAFIEI.pdf:** Comprehensive project report detailing methodology, experiments, and results.
-* instructions.pdf:** Internal guide detailing project structure and execution.
 
 ---
 
