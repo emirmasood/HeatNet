@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data files (large data should not be committed)
+data/raw/
+data/full_data/
+data/cropped_resized_data/
+data/cropped_resized_depth_data/
+data/predicted_key_points/
+data/point_sampling_data/
+data/yolo_data/
+
+# Model checkpoints (large files should not be committed)
+models/*.pt
+models/*.pth
+models/*.weights
+
+# Environment files
+.env
+venv/
+env/
+*.env
+
+# Jupyter Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+notebooks/end_to_end/.ipynb_checkpoints/
+
+# Mac OS Files
+.DS_Store
+
+# Logs and results
+logs/
+results/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# System files
+Thumbs.db
+desktop.ini
