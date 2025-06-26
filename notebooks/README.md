@@ -33,6 +33,3 @@ This folder contains all Jupyter/Colab notebooks to run each step of the project
 
 - **`end_to_end/ph5_01_end_to_end.ipynb`**  
   Unifies all pipeline stages into a single cohesive workflow, and modules/ folder supplying all necessary scripts and utilities to execute the full system.
-  Uses the **`modules/`** subfolder, which provides:  
-  - **`utils/`**: `add_utils.py`, `pnp_utils.py`, `yolo_utils.py`, `kpd_utils.py`  
-  - **`models/`**: `baseline_model_class.py`, `extended_model_class.py`
