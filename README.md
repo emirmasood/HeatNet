@@ -28,7 +28,7 @@ This repository provides the official implementation of our Machine Learning & D
 
 ```bash
 git clone https://github.com/emirmasood/HeatNet.git
-cd 6d-pose-estimation
+cd HeatNet
 ```
 
 ### Step 2: Install Dependencies
@@ -55,32 +55,22 @@ jupyter lab notebooks/end_to_end/ph5_01_end_to_end.ipynb
 
 ---
 
-## 📔 Project Notebooks
-
-* **Phase 1:** Data preparation and cleaning
-* **Phase 2:** YOLO training and object detection
-* **Phase 3:** RGB keypoint regression and PnP pose estimation
-* **Phase 4:** RGB-D fusion and extended experiments
-* **Phase 5:** End-to-end unified pipeline (`ph5_01_end_to_end.ipynb`)
-
----
-
 ## 📜 Documentation
 
 All relevant documentation, including the project report, is available in the `docs/` folder:
 
-* **[s337769_s337006_s344174_s342583 _ALJOSEVIC_ALMASI_ PAROVIC_SHAFIEI.pdf](docs/s337769_s337006_s344174_s342583 _ALJOSEVIC_ALMASI_ PAROVIC_SHAFIEI.pdf):** Comprehensive project report detailing methodology, experiments, and results.
-* **[Instructions.pdf](docs/instructions.pdf):** Internal guide detailing project structure and execution.
+* s337769_s337006_s344174_s342583 _ALJOSEVIC_ALMASI_ PAROVIC_SHAFIEI.pdf:** Comprehensive project report detailing methodology, experiments, and results.
+* instructions.pdf:** Internal guide detailing project structure and execution.
 
 ---
 
-## 📝 Citation
+## 👥 Authors
+This project was created by:
 
-```bibtex
-@misc{aljosevic2025pose,
-  title   = {6D Pose Estimation via Keypoint Heatmap Regression with RGB-D ResNet},
-  author  = {Aljosevic, I. and Almasi, A. M. and Parovic, A. and Shafiei, A.},
-  year    = {2025},
-  howpublished = {\url{https://github.com/<your_username>/6d-pose-estimation}}
-}
-```
+Ismail Aljosevic (ismail.aljosevic@studenti.polito.it)
+
+Amir Masoud Almasi (amirmasoud.almasi@studenti.polito.it)
+
+Ana Parovic (ana.parovic@studenti.polito.it)
+
+Ashkan Shafiei (ashkan.shafiei@studenti.polito.it)
